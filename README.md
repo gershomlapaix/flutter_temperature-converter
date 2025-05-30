@@ -1,16 +1,33 @@
-# temperature_converter
+# Temperature Converter App
 
-A new Flutter project.
+## Overview
+A Flutter mobile application that converts temperatures between Fahrenheit and Celsius with conversion history tracking.
 
-## Getting Started
+## Features
+- Fahrenheit to Celsius conversion
+- Celsius to Fahrenheit conversion
+- Input validation
+- Conversion history
+- Responsive design (portrait/landscape)
+- Smooth animations
 
-This project is a starting point for a Flutter application.
+## Setup Instructions
+1. Clone this repository
+2. Run `flutter pub get`
+3. Run `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture
+- StatefulWidget for state management
+- Custom animations using AnimationController
+- Form validation
+- Responsive UI design
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Widgets Used
+- MaterialApp
+- Scaffold
+- Card
+- TextFormField
+- ElevatedButton
+- RadioListTile
+- ListView
+- AnimatedWidget (ScaleTransition, SlideTransition)
